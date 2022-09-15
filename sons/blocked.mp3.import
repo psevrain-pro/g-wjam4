@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/blocked.mp3-b2cd06ddf3716ecaf0884f4d174aea29.mp3str"
+
+[deps]
+
+source_file="res://sons/blocked.mp3"
+dest_files=[ "res://.import/blocked.mp3-b2cd06ddf3716ecaf0884f4d174aea29.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/soul.mp3-ff5aeabed0ee6930cdfc8c79258425e7.mp3str"
+
+[deps]
+
+source_file="res://sons/soul.mp3"
+dest_files=[ "res://.import/soul.mp3-ff5aeabed0ee6930cdfc8c79258425e7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

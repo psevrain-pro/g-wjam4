@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/terraform1.mp3-f64d04a8fe5a2c418d50669bdc544e0d.mp3str"
+
+[deps]
+
+source_file="res://sons/terraform1.mp3"
+dest_files=[ "res://.import/terraform1.mp3-f64d04a8fe5a2c418d50669bdc544e0d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

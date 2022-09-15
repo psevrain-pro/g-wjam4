@@ -1,0 +1,201 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://fonts/Wizardry Night.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://menu.gd" type="Script" id=2]
+[ext_resource path="res://theme_corps.tres" type="Theme" id=3]
+[ext_resource path="res://sprites/mago_16x16.png" type="Texture" id=4]
+[ext_resource path="res://sprites/skelx16x16x7.png" type="Texture" id=5]
+[ext_resource path="res://sprites/Torch.png" type="Texture" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 1 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 4 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 4 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 4 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=15]
+animations = [ {
+"frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 5 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 5 )
+region = Rect2( 64, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 5 )
+region = Rect2( 80, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 5 )
+region = Rect2( 96, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=35]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=36]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 16, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=37]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 32, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=38]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 48, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=39]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 64, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=40]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 80, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=41]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 96, 0, 16, 16 )
+
+[sub_resource type="AtlasTexture" id=42]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 112, 0, 16, 16 )
+
+[sub_resource type="SpriteFrames" id=43]
+animations = [ {
+"frames": [ SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="menu" type="Node2D"]
+position = Vector2( -207, 26 )
+script = ExtResource( 2 )
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 210.0
+margin_top = -27.0
+margin_right = 775.0
+margin_bottom = 305.0
+
+[node name="titre" type="Label" parent="Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -266.5
+margin_top = 3.0
+margin_right = -67.5
+margin_bottom = 34.0
+custom_fonts/font = SubResource( 1 )
+text = "Junior Necro Executive Assistant"
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 17.0
+margin_top = -106.0
+margin_right = -138.0
+margin_bottom = 125.0
+custom_constants/separation = 15
+
+[node name="Label3" type="Label" parent="Control/VBoxContainer"]
+margin_right = 410.0
+margin_bottom = 33.0
+theme = ExtResource( 3 )
+custom_colors/font_color = Color( 0.756863, 0.831373, 0.0235294, 1 )
+text = "Internship mission: support the MAI (MAgic Intelligence) in charge of cleaning the dungeon."
+autowrap = true
+
+[node name="Label4" type="Label" parent="Control/VBoxContainer"]
+margin_top = 48.0
+margin_right = 410.0
+margin_bottom = 99.0
+theme = ExtResource( 3 )
+text = "It controls the skeleton agents to collect the slime from the mutant blue slugs.
+The MAI is a bit crude, and you will have to unblock the agents... often."
+autowrap = true
+
+[node name="Label5" type="Label" parent="Control/VBoxContainer"]
+margin_top = 114.0
+margin_right = 410.0
+margin_bottom = 165.0
+theme = ExtResource( 3 )
+text = "
+Move your spectral projection in the dungeon with <Arrow keys>. 
+Cast a Magic Injunction with the <Space> bar."
+align = 1
+autowrap = true
+
+[node name="Label6" type="Label" parent="Control/VBoxContainer"]
+margin_top = 180.0
+margin_right = 410.0
+margin_bottom = 195.0
+theme = ExtResource( 3 )
+text = "<Space> to start"
+align = 1
+
+[node name="sprite_mago" type="AnimatedSprite" parent="."]
+position = Vector2( 670, 184 )
+frames = SubResource( 15 )
+playing = true
+
+[node name="sprite_squel" type="AnimatedSprite" parent="."]
+position = Vector2( 670, 105 )
+frames = SubResource( 6 )
+frame = 2
+playing = true
+
+[node name="torche" type="AnimatedSprite" parent="."]
+position = Vector2( 363, 218 )
+frames = SubResource( 43 )
+frame = 5
+playing = true
+
+[node name="torche2" type="AnimatedSprite" parent="."]
+position = Vector2( 498, 219 )
+frames = SubResource( 43 )
+frame = 5
+playing = true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/coin court.wav-7aad2066e5a1e289803383c51242e037.sample"
+
+[deps]
+
+source_file="res://sons/coin court.wav"
+dest_files=[ "res://.import/coin court.wav-7aad2066e5a1e289803383c51242e037.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

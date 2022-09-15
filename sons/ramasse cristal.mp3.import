@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ramasse cristal.mp3-9d505bb423c61f41b3d426ee84cff792.mp3str"
+
+[deps]
+
+source_file="res://sons/ramasse cristal.mp3"
+dest_files=[ "res://.import/ramasse cristal.mp3-9d505bb423c61f41b3d426ee84cff792.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

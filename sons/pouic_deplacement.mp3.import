@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pouic_deplacement.mp3-a1751f7a3ff7ffb450d55b23c9253bfc.mp3str"
+
+[deps]
+
+source_file="res://sons/pouic_deplacement.mp3"
+dest_files=[ "res://.import/pouic_deplacement.mp3-a1751f7a3ff7ffb450d55b23c9253bfc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

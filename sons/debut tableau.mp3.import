@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/debut tableau.mp3-1433ae09509da9b8e2cd543fd9397817.mp3str"
+
+[deps]
+
+source_file="res://sons/debut tableau.mp3"
+dest_files=[ "res://.import/debut tableau.mp3-1433ae09509da9b8e2cd543fd9397817.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

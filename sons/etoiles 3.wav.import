@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/etoiles 3.wav-238c6a6b33e2702c12e0d451158f9331.sample"
+
+[deps]
+
+source_file="res://sons/etoiles 3.wav"
+dest_files=[ "res://.import/etoiles 3.wav-238c6a6b33e2702c12e0d451158f9331.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
